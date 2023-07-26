@@ -29,7 +29,8 @@ tailwind.config = {
                 "groovy": "#4298B8",
                 "python": "#3776AB",
                 "tailwindcss": "#06B6D4",
-                "atlassian": "#0052CC"
+                "atlassian": "#0052CC",
+                "git": "#F05032"
             }
         }
     }
