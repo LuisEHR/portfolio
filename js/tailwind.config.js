@@ -28,7 +28,8 @@ tailwind.config = {
                 "js": "#F7DF1E",
                 "groovy": "#4298B8",
                 "python": "#3776AB",
-                "tailwindcss": "#06B6D4"
+                "tailwindcss": "#06B6D4",
+                "atlassian": "#0052CC"
             }
         }
     }
