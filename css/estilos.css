@@ -22,3 +22,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#lh_project {
+    height: 200px;
+    background-image: url("../img/projects/lh.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.no-image-project {
+    height: 200px;
+    background-color: white;
+    background-image: url("../img/projects/no_image.svg");
+    background-size: contain;
+    background-position: center;
+}
