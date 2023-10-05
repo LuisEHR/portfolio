@@ -44,17 +44,6 @@
                 </div>
 
                 <!-- Desktop Menu-->
-                <div class="hidden lg:flex lg:gap-x-12">
-                    <a href="#home"
-                        class="text-sm font-semibold leading-6 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Inicio</a>
-                    <a href="#about"
-                        class="text-sm font-semibold leading-6 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Acerca
-                        De Mí</a>
-                    <a href="#portfolio"
-                        class="text-sm font-semibold leading-6 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Portafolio</a>
-                    <a href="#contact"
-                        class="text-sm font-semibold leading-6 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Contacto</a>
-                </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                     <label class="relative inline-flex items-center mb-5 cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" id="theme_btn">
@@ -104,14 +93,14 @@
                     <div class="mt-6 flow-root">
                         <div class="-my-6 divide-y divide-gray-200 dark:divide-gray-700">
                             <div class="space-y-2 py-6">
-                                <a href="#home"
+                                <a href="#home" id="home_mobile"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Inicio</a>
-                                <a href="#about"
+                                <a href="#about" id="about_mobile"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Sobre
                                     Mí</a>
-                                <a href="#portfolio"
+                                <a href="#portfolio" id="portfolio_mobile"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Portafolio</a>
-                                <a href="#contact"
+                                <a href="#contact" id="contact_mobile"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Contacto</a>
                             </div>
                             <div class="py-6">
@@ -686,7 +675,8 @@
             Hernandez Robledo. All
             Rights Reserved.
         </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul
+            class="hidden lg:flex lg:flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <a href="#home"
                 class="mr-4 text-sm font-semibold leading-6 text-black dark:text-white hover:text-dev-primary transition-all ease-in-out duration-500">Inicio</a>
             <a href="#about"
