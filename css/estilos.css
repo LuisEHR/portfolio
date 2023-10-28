@@ -30,6 +30,13 @@
     background-position: center;
 }
 
+#upmhb_project {
+    height: 200px;
+    background-image: url("../img/projects/upmh_b.png");
+    background-size: contain;
+    background-position: center;
+}
+
 .no-image-project {
     height: 200px;
     background-color: white;
