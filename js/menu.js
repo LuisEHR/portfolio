@@ -1,33 +1,14 @@
-const open_btn = document.querySelector('#open_btn');
-const close_btn = document.querySelector('#close_btn');
-const menu = document.querySelector('#menu');
+const btn_language = document.querySelector("#btn-language");
+const language_dropdown = document.querySelector("#language-dropdown-menu");
 
-const home_mobile = document.querySelector('#home_mobile');
-const about_mobile = document.querySelector('#about_mobile');
-const portfolio_mobile = document.querySelector('#portfolio_mobile');
-const contact_mobile = document.querySelector('#contact_mobile');
+btn_language.addEventListener("click", () => {
+  // Toggle dropdown
+  language_dropdown.classList.toggle("hidden");
 
-
-open_btn.addEventListener('click', () => {
-    menu.classList.remove("hidden");
-})
-
-close_btn.addEventListener('click', () => {
-    menu.classList.add("hidden");
-})
-
-home_mobile.addEventListener('click', () => {
-    menu.classList.add("hidden");
-})
-
-about_mobile.addEventListener('click', () => {
-    menu.classList.add("hidden");
-})
-
-portfolio_mobile.addEventListener('click', () => {
-    menu.classList.add("hidden");
-})
-
-contact_mobile.addEventListener('click', () => {
-    menu.classList.add("hidden");
-})
+  // Change style btn_language
+  if (language_dropdown.classList.contains("hidden")) {
+    btn_language.classList.remove("bg-gray-800", "border-gray-700");
+  } else {
+    btn_language.classList.add("bg-gray-800", "border-gray-700");
+  }
+});

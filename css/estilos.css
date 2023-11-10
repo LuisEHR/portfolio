@@ -1,46 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --dev-primary: "#27D3AE";
-    --dev-secondary: "#0F5445";
-    --dev-accent: "#1B947A";
-    --dev-accent-dark: "#22BA99";
-    --dev-gray: "#475569";
-    --dev-gray-dark: "#94A3B8";
-    --dev-dark: "#1E293B";
-    --dev-light: "#FFFFFF";
     font-family: 'Poppins', sans-serif;
-}
-
-* {
-    transition: all ease-in-out 500ms;
-}
-
-.text-gradient {
-    background: -webkit-linear-gradient(#27D3AE, #1B947A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#lh_project {
-    height: 200px;
-    background-image: url("../img/projects/lh.png");
-    background-size: contain;
-    background-position: center;
-}
-
-#upmhb_project {
-    height: 200px;
-    background-image: url("../img/projects/upmh_b.png");
-    background-size: contain;
-    background-position: center;
-}
-
-.no-image-project {
-    height: 200px;
-    background-color: white;
-    background-image: url("../img/projects/no_image.svg");
-    background-size: contain;
-    background-position: center;
 }
