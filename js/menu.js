@@ -9,9 +9,9 @@ btn_language.addEventListener("click", () => {
 
   // Change style btn_language
   if (language_dropdown.classList.contains("hidden")) {
-    btn_language.classList.remove("bg-teal-500/20");
+    btn_language.classList.remove("bg-gray-800");
   } else {
-    btn_language.classList.add("bg-teal-500/20");
+    btn_language.classList.add("bg-gray-800");
   }
 });
 
